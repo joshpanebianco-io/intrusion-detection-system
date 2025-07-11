@@ -12,12 +12,26 @@ This setup simulates a **purple teaming** exercise, combining offensive and defe
 - 🧠 Gain hands-on experience with networking, packet analysis, and security monitoring  
 - 💻 Setup and use a VirtualBox homelab for isolated attacker and victim machines  
 - ⚔️ Practice offensive tactics (attacks from Kali) and defensive tactics (IDS detection & logging)  
-- 🔍 Understand how to analyze logs and tune detection rules  
+- 🔍 Understand how to analyze logs and tune detection rules
+
+## 🔍 Current Detection Capabilities
+
+The IDS currently detects the following network activities:
+
+- 🔁 **ARP Spoofing**
+- 📡 **C2 Beaconing**  
+- 🌐 **DNS Tunneling**
+- 🌊 **ICMP Flood**
+- 💣 **Payload Strings** (e.g., known malicious payloads)
+- 🔎 **Port Scans**
+- 🔐 **SSH Brute Force**
+- 🌊 **SYN Flood**
+- 🌊 **TCP RST Flood**
 
 ## 🧪 Homelab Setup
 
 - 🖥️ **Victim Machine:** Runs the custom IDS script monitoring network traffic and logging alerts  
-- 🐉 **Attacker Machine:** Kali Linux, used to launch network attacks (e.g., ARP spoofing, port scans)  
+- 🐉 **Attacker Machine:** Kali Linux, used to launch network attacks (e.g., ARP spoofing, port scans, SSH bruteforce)  
 - 📦 **VirtualBox:** Hosts both VMs with configured internal networking  
 
 ## ✨ Features
@@ -46,4 +60,4 @@ This setup simulates a **purple teaming** exercise, combining offensive and defe
 
 - Start IDS:  
   ```bash
-  python3 lightweight_ids.py
+  python3 ids.py
