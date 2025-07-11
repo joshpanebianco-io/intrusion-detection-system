@@ -45,7 +45,7 @@ The IDS currently detects the following network activities:
 
 1. 🟢 Launch the victim machine VM and start the IDS script  
 2. 🔴 Launch the Kali Linux attacker VM  
-3. 💣 Execute network attacks from Kali (e.g., `arping`, `nmap`) targeting the victim  
+3. 💣 Execute network attacks from Kali (e.g., `arping`, `nmap`, `reverse shells`) targeting the victim  
 4. 📋 Observe IDS logs for detection alerts  
 5. 📈 Analyze logs and tune detection parameters  
 
