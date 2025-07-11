@@ -61,3 +61,37 @@ The IDS currently detects the following network activities:
 - Start IDS:  
   ```bash
   python3 ids.py
+
+## 📷 Screenshots
+
+Here are example detections from running various attacks against the victim machine.
+
+### 🔁 ARP Spoofing Detection
+![ARP Spoofing](screenshots/arp_spoofing.png)
+
+### 📡 C2 Beaconing Detection
+![C2 Beaconing](screenshots/c2_beaconing.png)
+
+### 🌐 DNS Tunneling Detection
+![DNS Tunneling](screenshots/dns_tunneling.png)
+
+### 🌊 ICMP Flood Detection
+![ICMP Flood](screenshots/icmp_flood.png)
+
+### 💣 Payload Strings Detection
+![Payload Strings](screenshots/payload_strings.png)
+
+### 🔎 Port Scan Detection
+![Port Scan](screenshots/port_scan.png)
+
+### 🔐 SSH Brute Force Detection
+![SSH Brute Force](screenshots/ssh_brute_force.png)
+
+### 🌊 SYN Flood Detection
+![SYN Flood](screenshots/syn_flood.png)
+
+### 🌊 TCP RST Flood Detection
+![TCP RST Flood](screenshots/tcp_rst_flood.png)
+
+
+  
