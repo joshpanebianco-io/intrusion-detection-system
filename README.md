@@ -71,7 +71,7 @@ Here is the IDS in action - detections from running various attacks against the 
 
 <img src="screenshots/ids-run.png" alt="Upload" width="900"/>
 
-## 🛡️ Detection Logic Descriptions
+## 🛡️ Detections
 
 ### 🔁 ARP Spoofing Detection
 - **What the attacker does**: Sends fake ARP responses to a victim to associate the attacker’s MAC address with the gateway’s IP, effectively becoming a man-in-the-middle.
