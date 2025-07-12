@@ -108,7 +108,7 @@ Here is the IDS in action - detections from running various attacks against the 
 
 3. Establish a reverse shell
 
-<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="1000" />
+<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="900" />
 
 
 #### IDS - log output
