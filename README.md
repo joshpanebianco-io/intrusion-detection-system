@@ -65,7 +65,7 @@ The IDS currently detects the following network activities:
 
 Here is the IDS in action - detections from running various attacks against the victim machine.
 
-Machine configs
+#### Machine configs
 
 <p>
   <img src="screenshots/ubuntu-config.png" width="50%"/>
@@ -87,7 +87,6 @@ Machine configs
 #### IDS - log output
 
 <img src="screenshots/arp-spoof-ids.png" alt="Upload" width="900"/>
-
 
 ---
 
@@ -121,6 +120,14 @@ Machine configs
 - **What the attacker does**: Sends a large number of ICMP Echo Request (ping) packets to the target.
 - **What it achieves**: Aims to overwhelm the network stack or consume bandwidth, potentially causing denial of service.
 - **What the IDS detects**: A high volume of ICMP packets in a short time window from a single source.
+
+#### Attack
+
+<img src="screenshots/icmp-flood-attack.png" alt="Upload" width="900"/>
+
+#### IDS - log output
+
+<img src="screenshots/icmp-flood-ids.png" alt="Upload" width="900"/>
 
 ---
 
