@@ -23,7 +23,7 @@ def process_packet(packet):
     c2_beacon.detect(packet)
 
 if __name__ == "__main__":
-    print("[*] Starting Lightweight IDS with advanced detectors...")
+    print("[*] Starting Intrusion Detection System...")
     try:
         sniff(filter="ip or arp or udp port 53", prn=process_packet, store=0)
     except KeyboardInterrupt:
