@@ -69,7 +69,7 @@ Machine configs
 
 <p align="center">
   <img src="screenshots/ubuntu-config.png" width="48%" style="display:inline-block; margin-right: 10px;"/>
-  <img src="screenshots/kali-config.png" width="48%" style="display:inline-block;"/>
+  <img src="screenshots/kali-config.png" width="30%" style="display:inline-block;"/>
 </p>
 
 
