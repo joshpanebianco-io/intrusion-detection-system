@@ -158,7 +158,7 @@ Here is the IDS in action - detections from running various attacks against the 
 
 #### IDS - log output
 
-<img src="screenshots/port-scan-output.png" alt="Upload" width="900"/>
+<img src="screenshots/port-scan-ids.png" alt="Upload" width="900"/>
 
 ---
 
@@ -170,7 +170,7 @@ Here is the IDS in action - detections from running various attacks against the 
 #### Attack
 
 <p>
-  <img src="screenshots/ssh-bruteforce-attack.png" width="50%" />
+  <img src="screenshots/ssh-bruteforce-attack.png" width="54%" />
   <img src="screenshots/ssh-bruteforce-attack-success.png" width="48%" />
 </p>
 
