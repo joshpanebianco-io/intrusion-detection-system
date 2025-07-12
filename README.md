@@ -107,7 +107,7 @@ Here is the IDS in action - detections from running various attacks against the 
 
 3. Establish a reverse shell
 
-<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="1100" />
+<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="1000" />
 
 
 #### IDS - log output
@@ -136,6 +136,14 @@ Here is the IDS in action - detections from running various attacks against the 
 - **What it achieves**: Attempts to execute commands, download malware, or create reverse shells on the victim.
 - **What the IDS detects**: Known suspicious keywords or byte patterns in raw packet payloads.
 
+#### Attack
+
+<img src="screenshots/payload-strings-attack.png" alt="Upload" width="900"/>
+
+#### IDS - log output
+
+<img src="screenshots/payload-strings-ids.png" alt="Upload" width="900"/>
+
 ---
 
 ### 🔎 Port Scan Detection
@@ -143,12 +151,33 @@ Here is the IDS in action - detections from running various attacks against the 
 - **What it achieves**: Gathers reconnaissance to plan further exploitation.
 - **What the IDS detects**: A single source attempting connections to many different ports on the target within a short period.
 
+#### Attack
+
+<img src="screenshots/portscan-attack.png" alt="Upload" width="900"/>
+
+#### IDS - log output
+
+<img src="screenshots/portscan-output.png" alt="Upload" width="900"/>
+
 ---
 
 ### 🔐 SSH Brute Force Detection
 - **What the attacker does**: Rapidly attempts many username/password combinations against SSH (port 22).
 - **What it achieves**: Tries to gain unauthorized shell access via credential stuffing or brute force.
 - **What the IDS detects**: Numerous SSH connection attempts or failed login attempts from a single source IP.
+
+#### Attack
+
+<p>
+  <img src="screenshots/ssh-bruteforce-attack.png" width="48%" />
+  <img src="screenshots/ssh-bruteforce-attack-success.png" width="48%" />
+</p>
+
+#### IDS - log output
+
+<img src="screenshots/ssh-bruteforce-ids.png" alt="Upload" width="900"/>
+
+<img src="screenshots/ssh-bruteforce-ids-success.png" alt="Upload" width="900"/>
 
 ---
 
