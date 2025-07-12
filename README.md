@@ -64,7 +64,7 @@ The IDS currently detects the following network activities:
 
 ## 📷 Screenshots
 
-Here are example detections from running various attacks against the victim machine.
+Here is the IDS in action - detections from running various attacks against the victim machine.
 
 ### 🔁 ARP Spoofing Detection
 
