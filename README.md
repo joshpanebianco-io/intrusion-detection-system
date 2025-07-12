@@ -98,12 +98,17 @@ Machine configs
 
 #### Attack
 
+- ssh bruteforce to get the password
+- ssh into the victim machine
+
 <p>
   <img src="screenshots/c2-beaconing-ssh-bruteforce.png" width="48%" />
   <img src="screenshots/c2-beaconing-ssh-connection.png" width="48%" />
 </p>
 
-<img src="screenshots/c2-beaconing-ids.png" width="48%" />
+- establish a reverse shell
+
+<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="48%" />
 
 
 #### IDS - log output
