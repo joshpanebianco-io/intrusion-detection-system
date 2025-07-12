@@ -20,7 +20,6 @@ The IDS currently detects the following network activities:
 
 - 🔁 **ARP Spoofing**
 - 📡 **C2 Beaconing**  
-- 🌐 **DNS Tunneling**
 - 🌊 **ICMP Flood**
 - 💣 **Payload Strings** (e.g., known malicious payloads)
 - 🔎 **Port Scans**
@@ -70,9 +69,6 @@ Here is the IDS in action - detections from running various attacks against the 
 
 
 ### 📡 C2 Beaconing Detection
-
-
-### 🌐 DNS Tunneling Detection
 
 
 ### 🌊 ICMP Flood Detection
