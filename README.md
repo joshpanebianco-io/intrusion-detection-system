@@ -108,7 +108,7 @@ Machine configs
 
 3. Establish a reverse shell
 
-<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="60%" />
+<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="900" />
 
 
 #### IDS - log output
