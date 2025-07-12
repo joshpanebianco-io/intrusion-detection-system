@@ -72,6 +72,7 @@ Here is the IDS in action - detections from running various attacks against the 
   <img src="screenshots/kali-config.png" width="40%"/>
 </p>
 
+<img src="screenshots/ids-run.png" alt="Upload" width="900"/>
 
 ## 🛡️ Detection Logic Descriptions
 
@@ -153,11 +154,11 @@ Here is the IDS in action - detections from running various attacks against the 
 
 #### Attack
 
-<img src="screenshots/portscan-attack.png" alt="Upload" width="900"/>
+<img src="screenshots/port-scan-attack.png" alt="Upload" width="900"/>
 
 #### IDS - log output
 
-<img src="screenshots/portscan-output.png" alt="Upload" width="900"/>
+<img src="screenshots/port-scan-output.png" alt="Upload" width="900"/>
 
 ---
 
@@ -169,7 +170,7 @@ Here is the IDS in action - detections from running various attacks against the 
 #### Attack
 
 <p>
-  <img src="screenshots/ssh-bruteforce-attack.png" width="48%" />
+  <img src="screenshots/ssh-bruteforce-attack.png" width="50%" />
   <img src="screenshots/ssh-bruteforce-attack-success.png" width="48%" />
 </p>
 
@@ -186,12 +187,28 @@ Here is the IDS in action - detections from running various attacks against the 
 - **What it achieves**: Consumes resources on the victim (e.g., half-open connections), leading to denial of service.
 - **What the IDS detects**: A large number of SYN packets from one source without corresponding ACKs.
 
+#### Attack
+
+<img src="screenshots/syn-flood-attack.png" alt="Upload" width="900"/>
+
+#### IDS - log output
+
+<img src="screenshots/syn-flood-ids.png" alt="Upload" width="900"/>
+
 ---
 
 ### 🌊 TCP RST Flood Detection
 - **What the attacker does**: Sends a flood of TCP RST (reset) packets to active connections.
 - **What it achieves**: Forces connections to close prematurely, potentially disrupting services or communication.
 - **What the IDS detects**: An unusual number of TCP RST packets from one source to many destinations or sessions.
+
+#### Attack
+
+<img src="screenshots/tcp-rst-attack.png" alt="Upload" width="900"/>
+
+#### IDS - log output
+
+<img src="screenshots/tcp-rst-ids.png" alt="Upload" width="900"/>
 
 
 
