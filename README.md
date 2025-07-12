@@ -55,11 +55,6 @@ The IDS currently detects the following network activities:
 - 🐍 Python 3.x installed on the victim VM  
 - 📚 Required Python packages (e.g., `scapy`) installed on victim VM  
 
-## 🧪 Example Commands
-
-- Start IDS:  
-  ```bash
-  python3 ids.py
 
 ## 📷 Screenshots
 
@@ -71,6 +66,8 @@ Here is the IDS in action - detections from running various attacks against the 
   <img src="screenshots/ubuntu-config.png" width="50%"/>
   <img src="screenshots/kali-config.png" width="40%"/>
 </p>
+
+#### Run the IDS
 
 <img src="screenshots/ids-run.png" alt="Upload" width="900"/>
 
@@ -170,7 +167,7 @@ Here is the IDS in action - detections from running various attacks against the 
 #### Attack
 
 <p>
-  <img src="screenshots/ssh-bruteforce-attack.png" width="54%" />
+  <img src="screenshots/ssh-bruteforce-attack.png" width="52%" />
   <img src="screenshots/ssh-bruteforce-attack-success.png" width="48%" />
 </p>
 
