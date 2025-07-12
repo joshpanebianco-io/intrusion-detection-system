@@ -93,6 +93,15 @@ IDS - log output
 - **What it achieves**: Establishes control over the compromised host, allowing remote commands, data exfiltration, etc.
 - **What the IDS detects**: Repeated, timed outbound connections to the same IP/port (e.g., every 5 seconds), a hallmark of beaconing.
 
+Attack
+<p>
+  <img src="screenshots/c2-beaconing-ssh-bruteforce.png" width="50%" style="display:inline-block; margin-right: 10px;"/>
+  <img src="screenshots/c2-beaconing-ssh-connection.png" width="50%" style="display:inline-block;"/>
+</p>
+
+IDS - log output
+<img src="screenshots/arp-spoof-ids.png" alt="Upload" width="900"/>
+
 ---
 
 ### 🌊 ICMP Flood Detection
