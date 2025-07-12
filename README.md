@@ -67,8 +67,11 @@ Here is the IDS in action - detections from running various attacks against the 
 
 Machine configs
 
-<img src="screenshots/ubuntu-config.png" width="600"/>
-<img src="screenshots/kali-config.png" width="600"/>
+<p align="center">
+  <img src="screenshots/ubuntu-config.png" width="48%" style="display:inline-block; margin-right: 10px;"/>
+  <img src="screenshots/kali-config.png" width="48%" style="display:inline-block;"/>
+</p>
+
 
 ## 🛡️ Detection Logic Descriptions
 
