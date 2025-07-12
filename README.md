@@ -100,7 +100,7 @@ Attack
 </p>
 
 IDS - log output
-<img src="screenshots/arp-spoof-ids.png" alt="Upload" width="900"/>
+<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" alt="Upload" width="900"/>
 
 ---
 
