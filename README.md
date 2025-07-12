@@ -68,8 +68,8 @@ Here is the IDS in action - detections from running various attacks against the 
 Machine configs
 
 <p>
-  <img src="screenshots/ubuntu-config.png" width="50%" style="display:inline-block; margin-right: 10px;"/>
-  <img src="screenshots/kali-config.png" width="40%" style="display:inline-block;"/>
+  <img src="screenshots/ubuntu-config.png" width="50%"/>
+  <img src="screenshots/kali-config.png" width="40%"/>
 </p>
 
 
@@ -80,11 +80,14 @@ Machine configs
 - **What it achieves**: Allows the attacker to intercept, modify, or block traffic between hosts.
 - **What the IDS detects**: Multiple MAC addresses claiming to own the same IP (usually the gateway), indicating spoofing.
 
-Attack
+#### Attack
+
 <img src="screenshots/arp-spoof-attack.png" alt="Upload" width="900"/>
 
-IDS - log output
+#### IDS - log output
+
 <img src="screenshots/arp-spoof-ids.png" alt="Upload" width="900"/>
+
 
 ---
 
