@@ -102,8 +102,8 @@ Machine configs
 2. SSH into the victim machine
 
 <p>
-  <img src="screenshots/c2-beaconing-ssh-bruteforce.png" width="48%" />
-  <img src="screenshots/c2-beaconing-ssh-connection.png" width="48%" />
+  <img src="screenshots/c2-beaconing-ssh-bruteforce.png" width="50%" />
+  <img src="screenshots/c2-beaconing-ssh-connection.png" width="50%" />
 </p>
 
 3. Establish a reverse shell
@@ -113,7 +113,7 @@ Machine configs
 
 #### IDS - log output
 
-<img src="screenshots/c2-beaconing-ids.png" alt="Upload" width="800"/>
+<img src="screenshots/c2-beaconing-ids.png" alt="Upload" width="900"/>
 
 ---
 
