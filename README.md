@@ -80,7 +80,10 @@ Machine configs
 - **What it achieves**: Allows the attacker to intercept, modify, or block traffic between hosts.
 - **What the IDS detects**: Multiple MAC addresses claiming to own the same IP (usually the gateway), indicating spoofing.
 
+Attack
 <img src="screenshots/arp-spoof-attack.png" alt="Upload" width="900"/>
+
+IDS - log output
 <img src="screenshots/arp-spoof-ids.png" alt="Upload" width="900"/>
 
 ---
