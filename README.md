@@ -95,9 +95,10 @@ IDS - log output
 
 Attack
 <p>
-  <img src="screenshots/c2-beaconing-ssh-bruteforce.png" width="50%" style="display:inline-block; margin-right: 10px;"/>
-  <img src="screenshots/c2-beaconing-ssh-connection.png" width="50%" style="display:inline-block;"/>
+  <img src="screenshots/c2-beaconing-ssh-bruteforce.png" width="48%" />
+  <img src="screenshots/c2-beaconing-ssh-connection.png" width="48%" />
 </p>
+
 
 IDS - log output
 <img src="screenshots/c2-beaconing-ssh-reverse-shell.png" alt="Upload" width="900"/>
