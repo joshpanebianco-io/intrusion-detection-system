@@ -113,7 +113,7 @@ Machine configs
 
 #### IDS - log output
 
-<img src="screenshots/c2-beaconing-ids.png" alt="Upload" width="900"/>
+<img src="screenshots/c2-beaconing-ids.png" alt="Upload" width="1000"/>
 
 ---
 
