@@ -167,7 +167,7 @@ Here is the IDS in action - detections from running various attacks against the 
 #### Attack
 
 <p>
-  <img src="screenshots/ssh-bruteforce-attack.png" width="48%" />
+  <img src="screenshots/ssh-bruteforce-attack.png" width="50%" />
   <img src="screenshots/ssh-bruteforce-attack-success.png" width="44%" />
 </p>
 
