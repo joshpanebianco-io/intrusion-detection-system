@@ -108,12 +108,12 @@ Machine configs
 
 3. Establish a reverse shell
 
-<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="900" />
+<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" width="1100" />
 
 
 #### IDS - log output
 
-<img src="screenshots/c2-beaconing-ids.png" alt="Upload" width="1000"/>
+<img src="screenshots/c2-beaconing-ids.png" alt="Upload" width="800"/>
 
 ---
 
