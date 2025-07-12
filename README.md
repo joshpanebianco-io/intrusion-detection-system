@@ -96,15 +96,19 @@ Machine configs
 - **What it achieves**: Establishes control over the compromised host, allowing remote commands, data exfiltration, etc.
 - **What the IDS detects**: Repeated, timed outbound connections to the same IP/port (e.g., every 5 seconds), a hallmark of beaconing.
 
-Attack
+#### Attack
+
 <p>
   <img src="screenshots/c2-beaconing-ssh-bruteforce.png" width="48%" />
   <img src="screenshots/c2-beaconing-ssh-connection.png" width="48%" />
 </p>
 
+<img src="screenshots/c2-beaconing-ids.png" width="48%" />
 
-IDS - log output
-<img src="screenshots/c2-beaconing-ssh-reverse-shell.png" alt="Upload" width="900"/>
+
+#### IDS - log output
+
+<img src="screenshots/c2-beaconing-ids.png" alt="Upload" width="900"/>
 
 ---
 
