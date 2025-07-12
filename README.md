@@ -65,12 +65,19 @@ The IDS currently detects the following network activities:
 
 Here is the IDS in action - detections from running various attacks against the victim machine.
 
+Machine configs
+
+<img src="screenshots/ubuntu-config.png" width="600"/>
+<img src="screenshots/kali-config.png" width="600"/>
+
 ## 🛡️ Detection Logic Descriptions
 
 ### 🔁 ARP Spoofing Detection
 - **What the attacker does**: Sends fake ARP responses to a victim to associate the attacker’s MAC address with the gateway’s IP, effectively becoming a man-in-the-middle.
 - **What it achieves**: Allows the attacker to intercept, modify, or block traffic between hosts.
 - **What the IDS detects**: Multiple MAC addresses claiming to own the same IP (usually the gateway), indicating spoofing.
+
+<img src="screenshots/code-file.png" alt="Upload" width="600"/>
 
 ---
 
